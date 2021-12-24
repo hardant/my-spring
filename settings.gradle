@@ -41,4 +41,6 @@ rootProject.children.each {project ->
 }
 include 'framework-bom'
 include 'buildSrc'
+include 'spring-context'
+include 'spring-core'
 
