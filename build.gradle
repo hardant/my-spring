@@ -307,7 +307,7 @@ configure(allprojects) { project ->
 }
 
 configure([rootProject] + javaProjects) { project ->
-    group = "org.springframework"
+    group = "fhf.springframework"
 
     apply plugin: "java"
     apply plugin: "java-test-fixtures"

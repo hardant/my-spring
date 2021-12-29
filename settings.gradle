@@ -9,7 +9,6 @@ pluginManagement {
 }
 apply from: "$rootDir/gradle/build-cache-settings.gradle"
 
-include 'demo'
 //include "spring-aop"
 //include "spring-aspects"
 //include "spring-beans"
@@ -43,4 +42,6 @@ include 'framework-bom'
 include 'buildSrc'
 include 'spring-context'
 include 'spring-core'
+include 'spring-demo'
+include 'spring-beans'
 

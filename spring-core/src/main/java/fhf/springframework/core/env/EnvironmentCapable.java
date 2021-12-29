@@ -1,4 +1,5 @@
 package fhf.springframework.core.env;
 
-public class EnvironmentCapable {
+public interface EnvironmentCapable {
+    Environment getEnvironment();
 }

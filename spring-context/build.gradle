@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.springframework'
+group 'fhf.springframework'
 version '5.2.13.RELEASE'
 
 repositories {
@@ -12,4 +12,5 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile(project(":spring-core"))
+    compile(project(":spring-beans"))
 }
