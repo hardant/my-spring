@@ -1,5 +1,6 @@
 package fhf.springframework.context.support;
 
+import fhf.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import fhf.springframework.context.ApplicationContext;
 import fhf.springframework.core.io.Resource;
 import fhf.springframework.lang.Nullable;
@@ -22,8 +23,4 @@ public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContex
             refresh();
         }
     }
-
-
-
-
 }
